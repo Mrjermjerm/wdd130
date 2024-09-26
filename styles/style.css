@@ -36,3 +36,23 @@ footer {
     text-align: center;
 }
 
+nav { 
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(8, 37, 60);
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
+    background-color: steelblue;
+ }
+
+nav a { 
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 { 
+    
+    color: steelblue;
+    
+ }
