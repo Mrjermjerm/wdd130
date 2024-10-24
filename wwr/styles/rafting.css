@@ -113,8 +113,11 @@ figcaption {
 }
 
 p {
-    color: var(--accent-color);
     font-family: "Open Sans";
+}
+
+footer p{
+    color: var(--accent-color)
 }
 
 .hero {
