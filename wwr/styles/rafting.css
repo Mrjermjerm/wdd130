@@ -51,11 +51,15 @@ h1 {
 .history p.first {
     grid-row: 2;
     grid-column: 1;
+    color: var(--background-color);
+    font-family: "Open Sans", sans-serif;
 }
 
 .history p.second {
     grid-row: 2;
     grid-column: 3;
+    color: var(--background-color);
+    font-family: "Open Sans", sans-serif;
 }
 
 .history img {
@@ -69,7 +73,7 @@ h1 {
 }
 
 .adventures h2 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: "Open Sans", sans-serif;
     text-align: center;
     grid-column: span 5; 
@@ -106,7 +110,7 @@ figure {
   
 figcaption {
     background-color: var(--primary-color);
-    color: var(--accent-color);
+    color: var(--background-color);
     font-family: 'Montserrat';
     padding: 3px;
     text-align: center;
@@ -197,6 +201,11 @@ footer nav img {
     justify-content: flex-end;
     max-width: 60px;
 }
+
+.hero p {
+    color: var(--primary-color)
+}
+
 
 .hero_contact {
     position: relative;
@@ -375,6 +384,8 @@ footer nav img {
     padding: 10px;
     border-radius: 8px;
     text-align: center;
+    color: var(--accent-color);
+    font-family: "Open Sans", sans-serif;
 }
 
 .trip img {
