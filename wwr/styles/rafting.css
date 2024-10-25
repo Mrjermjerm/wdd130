@@ -110,7 +110,7 @@ figure {
   
 figcaption {
     background-color: var(--primary-color);
-    color: var(--background-color);
+    color: #08469c;
     font-family: 'Montserrat';
     padding: 3px;
     text-align: center;
